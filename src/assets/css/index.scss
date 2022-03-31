@@ -1,0 +1,95 @@
+$color: #00ffff;
+$bgcolor: #121212;
+
+body {
+    background-color: $bgcolor;
+}
+
+.single-spacer {
+    height: 30px;
+}
+
+.double-spacer {
+    height: 60px;
+}
+
+.container {
+    z-index: 1 !important;
+}
+
+.item-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 960px;
+    z-index: 0;
+}
+
+.openApp {
+    outline: 0;
+    border: 2px solid #00ffff;
+    background-color: #007777;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: white;
+    transition: all 0.3s;
+    font-weight: bold;
+    margin-top: 5px;
+
+    &:hover {
+        background-color: #00ffff;
+        color: black;
+        margin-top: 0px;
+    }
+}
+
+.partner {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.openApp1 {
+    outline: 0;
+    border: 2px solid #00ffff;
+    background-color: #007777;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: white;
+    transition: all 0.3s;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #00ffff;
+        color: black;
+    }
+}
+
+.whitepaper {
+    outline: 0;
+    border: 2px solid #ff4fb4;
+    background-color: #943169;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #ff4fb4;
+        color: black;
+    }
+}
+
+.buttonGroup {
+    z-index: 20;
+    display: flex;
+    justify-content: space-around;
+}
